@@ -12,8 +12,8 @@ import retrofit2.http.GET;
     //此接口用于设定请求地址的一些信息
 public interface AppUrl {
 
-    @GET("index.jsp?name=chen&age=20")//此行注解代表Get请求
-    Call<ResponseBody> getIndex();
+    @GET("TrailerList.api")//此行注解代表Get请求
+    Call<MovieBean> getIndex();
 
 
 }
